@@ -1,0 +1,25 @@
+<h2>새 CF 그룹 생성</h2>
+
+<%= form_for @cf_group, url: cf_groups_path do |f| %>
+  <div>
+    <%= f.label :name, "그룹명" %><br>
+    <%= f.text_field :name %>
+  </div>
+
+  <div>
+    <%= f.label :custom_field_id, "연결할 사용자 정의 필드" %><br>
+    <%= f.select :custom_field_id, options_from_collection_for_select(@custom_fields, :id, :name, params[:custom_field_id]), { prompt: '선택하세요' }, onchange: "window.location='?custom_field_id=' + this.value;" %>
+  </div>
+
+  <% if @values.present? %>
+    <div>
+      <%= f.label :group_values, "그룹 멤버 (List 아이템 선택)" %><br>
+      <%= f.select :group_values, options_for_select(@values), {}, multiple: true %>
+    </div>
+  <% end %>
+
+  <div>
+    <%= f.submit "저장" %>
+  </div>
+<% end %>
+

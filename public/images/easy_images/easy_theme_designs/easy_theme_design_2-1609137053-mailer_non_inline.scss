@@ -1,0 +1,22 @@
+$color-main: #009ee0;
+$color-background: #f5efe6;
+$spacing: 8px;$spacing-coeficient: 1.375;$roundiness: 0.2;$font-family: 'Ubuntu', sans-serif;$headings-font-family: inherit;$font-size: 13px;$font-h1: 1.375em;$font-h2: 1.25em;$font-h3: 1em;$font-h4: 1em;$font-small: .89em;$font-smallest: 10px;$font-size--menu: 0.9375em;$base-line-height: 1.5;$color-main: #50596f;$color-muted: #9aaab8;$color-background: #ededed;$color-foreground: #ffffff;$color-text: #50596f;$color-text-muted: #a0a8ba;$color-links: #ae1400;$color-important: $color-links;$color-positive: #00c8a9;$color-negative: $color-links;$color-highlight: mix($color-background,$color-foreground);$color-notice: darken($color-highlight,30%);$color-border: darken($color-background, 15%);$color-border-minor: darken($color-background,5%);$color-main-border: darken($color-main, 10%);$color-important-border: darken($color-important, 10%);$color-positive-border: darken($color-positive, 10%);$color-negative-border: darken($color-negative, 10%);$color-highlight-border: darken($color-highlight, 15%);$color-print: #000;$color-step: 5;$color-palette-1: #edd84c;$color-palette-2: #e79d5c;$color-palette-3: #dc7c7c;$color-palette-4: #cd6fae;$color-palette-5: #b05ecc;$color-palette-6: #7f7fe4;$color-palette-7: #76a5e4;$color-palette-8: #8fd7ce;$color-palette-9: #92cc82;$color-palette-10: #c6db5e;$color-palette-11: #b7b5a5;$color-palette-12: #b19f8d;$color-palette-13: #eed63a;$color-top-background: $color-main;$color-top-border: darken($color-top-background, 10%);$color-top-text: $color-foreground;$color-top-active: $color-positive;$topmenu--height: 48px;$menumore--width: 240px;$leftmenu--width: 480px;$mainmenu--height: 30px;$color-more-background: #50596f;$color-more-foreground: $color-foreground;$color-more-text: $color-text;$color-more-text-muted: rgba($color-more-text,.25);$color-more-border: darken($color-more-background, 2%);$servicebar--width: $topmenu__height;$servicebar--height: 75px;$servicebar-color: $color-text-muted;$servicebar-background: $color-foreground;$servicebar-border: $color-border;$servicebar-component--width: 400px;$servicebar-component-background: #50596f;$servicebar-component-foreground: $color-foreground;$servicebar-component-border: $servicebar-component-background;$color--calendar--hilight: #fcf8e3;$form-background: mix($color-foreground, $color-background);$form-field-background: $color-foreground;$form-field-border: $color-border-minor;$form-field--max-width: 300px;$form-field--height: 24px;$tabular--offset: 120px;$tabular--offset--large: 240px;$button--height: $form-field__height;$button--height--small: .8*$button__height;$button--height--mini: .5*$button__height;$button-base-background: $color-background;$button-base-color: $color-text;$button-main-background: $color-main;$button-main-color: $color-foreground;$button-important-background: $color-important;$button-important-color: $color-foreground;$button-positive-background: $color-positive;$button-positive-color: $color-foreground;$button-negative-background: $color-negative;$button-negative-color: $color-foreground;$modal--color--backdrop: $color-main;$modal--opacity--backdrop: .8;$tab--height: 36px;$avatar--size: 20px;$scrollbar-background: $color-background;$scrollbar-background-border: darken($color-border-minor,15%);$scrollbar-foreground: $color-border;$scrollbar-foreground-border: darken($scrollbar-foreground,0%);$scrollbar--width: 12px;$scrollbar--radius: 6px;$mailer--color--back: $color-background;$mailer--color--front: $color-foreground;$mailer--color--text: $color-text;$mailer--color--heading: $mailer__color--text;$mailer--color--mixed: mix($mailer__color--back,$mailer__color--front);$mailer--color--border: $color-border;$mailer--color--links: $color-links;$mailer--color--muted: $color-muted;$mailer--color--positive: $color-positive;$mailer--color--negative: $color-negative;$mailer--width: 800px;$mailer--padding: 24px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$custom-brand-active: true;
+
+$rails-env: production;
+
+@import 'mailer/mailer_non_inline';

@@ -1,0 +1,24 @@
+/* 관리자 페이지와 출력 화면의 CF 그룹 관련 스타일 */
+
+/* 그룹화된 사용자 정의 필드 출력 */
+.cf-group {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.cf-group-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cf-group-values {
+  margin-left: 10px;
+}
+
+/* 일반 사용자 정의 필드 출력 */
+.cf-normal {
+  margin-bottom: 5px;
+}
+

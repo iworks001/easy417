@@ -1,0 +1,601 @@
+PATH
+  remote: gems/advanced_importer
+  specs:
+    advanced_importer (2.0.6)
+      rys
+
+PATH
+  remote: gems/custom_builtin_role
+  specs:
+    custom_builtin_role (1.1.5)
+      rys
+
+PATH
+  remote: gems/dependent_list_custom_field
+  specs:
+    dependent_list_custom_field (1.0.16)
+      rys
+
+PATH
+  remote: gems/easy-redmine
+  specs:
+    easy-redmine (0.6.3)
+      easy (~> 2.1.1)
+      rys
+
+PATH
+  remote: gems/easy_actions
+  specs:
+    easy_actions (0.5.5)
+      easy-redmine (~> 0.6)
+      easy_d3
+      easy_dagre_d3
+      finite_machine
+      httparty
+      rys
+
+PATH
+  remote: gems/easy_api
+  specs:
+    easy_api (1.0.2)
+      rys
+
+PATH
+  remote: gems/easy_calculoid
+  specs:
+    easy_calculoid (1.0.9)
+      rys
+
+PATH
+  remote: gems/easy_computed_field_from_query
+  specs:
+    easy_computed_field_from_query (1.0.7)
+      rys
+
+PATH
+  remote: gems/easy_core
+  specs:
+    easy_core (0.0.20)
+      rys
+
+PATH
+  remote: gems/easy_d3
+  specs:
+    easy_d3 (0.1.1)
+      rys
+
+PATH
+  remote: gems/easy_dagre_d3
+  specs:
+    easy_dagre_d3 (0.1.1)
+      easy_d3
+      rys
+
+PATH
+  remote: gems/easy_graphql
+  specs:
+    easy_graphql (1.4.17)
+      easy_api
+      graphiql-rails
+      graphql (~> 1.10.0)
+      rys
+
+PATH
+  remote: gems/easy_integrations
+  specs:
+    easy_integrations (0.2.0)
+      easy-redmine (~> 0.6)
+      httparty
+      rys
+      sidekiq
+      sidekiq-cron
+
+PATH
+  remote: gems/easy_money_cashflow
+  specs:
+    easy_money_cashflow (1.0.6)
+      rys
+
+PATH
+  remote: gems/easy_monitoring
+  specs:
+    easy_monitoring (0.2.4)
+
+PATH
+  remote: gems/easy_oauth2
+  specs:
+    easy_oauth2 (1.6.2)
+      easy-redmine (~> 0.6)
+      easy_sso
+      omniauth-oauth2
+      rys
+
+PATH
+  remote: gems/easy_service_manager
+  specs:
+    easy_service_manager (1.0.14)
+      rys
+
+PATH
+  remote: gems/easy_sso-saml_client
+  specs:
+    easy_sso-saml_client (1.3.0)
+      easy_sso (~> 1.2)
+      omniauth-saml (~> 1.10, >= 1.10.1)
+      rys
+
+PATH
+  remote: gems/easy_sso-saml_server
+  specs:
+    easy_sso-saml_server (0.2.0)
+      easy_sso (~> 1.2)
+      rys
+      saml_idp (~> 0.9.0)
+      xmlenc (>= 0.6.4)
+
+PATH
+  remote: gems/easy_sso
+  specs:
+    easy_sso (1.2.2)
+      rys
+
+PATH
+  remote: gems/easy_swagger
+  specs:
+    easy_swagger (3.2.18)
+      easy_api (~> 1.0)
+      rys
+      swagger-blocks (~> 3.0)
+
+PATH
+  remote: gems/easy_twofa
+  specs:
+    easy_twofa (1.2.7)
+      rotp (~> 6.2.0)
+      rqrcode
+      rys
+
+PATH
+  remote: gems/easy_watchers_list_autocomplete
+  specs:
+    easy_watchers_list_autocomplete (1.0.2)
+      rys
+
+PATH
+  remote: gems/easy_zapier
+  specs:
+    easy_zapier (1.0.2)
+      rys
+
+PATH
+  remote: gems/easy
+  specs:
+    easy (2.1.1)
+      railties
+
+PATH
+  remote: gems/email_field_autocomplete
+  specs:
+    email_field_autocomplete (1.1.2)
+      rys
+
+PATH
+  remote: gems/extended_users_context_menu
+  specs:
+    extended_users_context_menu (1.1.2)
+      rys
+
+PATH
+  remote: gems/issue_duration
+  specs:
+    issue_duration (1.0.11)
+      rys
+
+PATH
+  remote: gems/project_flags
+  specs:
+    project_flags (1.1.0)
+      rys
+
+PATH
+  remote: gems/resource_reports
+  specs:
+    resource_reports (1.1.6)
+      rys
+
+PATH
+  remote: gems/rorys
+  specs:
+    rorys (1.2.4)
+      fugit
+      rys
+
+PATH
+  remote: gems/rys_management
+  specs:
+    rys_management (1.1.1)
+      rys (~> 1.4.12)
+
+PATH
+  remote: gems/rys
+  specs:
+    rys (1.4.17)
+      redmine_extensions
+      request_store
+      tty-prompt
+
+PATH
+  remote: gems/ryspec
+  specs:
+    ryspec (0.2.20)
+      capybara
+      database_cleaner (~> 1.7.0)
+      factory_bot_rails (~> 5.1)
+      faker (~> 1.8.7)
+      launchy (~> 2.4.3)
+      poltergeist
+      rspec-rails (~> 4.0)
+      rys
+      webmock (~> 3.8.1)
+
+PATH
+  remote: gems/search_in_administration
+  specs:
+    search_in_administration (1.1.4)
+      rys
+
+PATH
+  remote: gems/security_user_lock
+  specs:
+    security_user_lock (1.0.9)
+      rys
+
+PATH
+  remote: gems/show_last_comments_on_issue
+  specs:
+    show_last_comments_on_issue (1.1.3)
+      rys
+
+GEM
+  remote: https://gems.easysoftware.com/
+  specs:
+    actioncable (5.2.4.4)
+      actionpack (= 5.2.4.4)
+      nio4r (~> 2.0)
+      websocket-driver (>= 0.6.1)
+    actionmailer (5.2.4.4)
+      actionpack (= 5.2.4.4)
+      actionview (= 5.2.4.4)
+      activejob (= 5.2.4.4)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 2.0)
+    actionpack (5.2.4.4)
+      actionview (= 5.2.4.4)
+      activesupport (= 5.2.4.4)
+      rack (~> 2.0, >= 2.0.8)
+      rack-test (>= 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview (5.2.4.4)
+      activesupport (= 5.2.4.4)
+      builder (~> 3.1)
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    activejob (5.2.4.4)
+      activesupport (= 5.2.4.4)
+      globalid (>= 0.3.6)
+    activemodel (5.2.4.4)
+      activesupport (= 5.2.4.4)
+    activerecord (5.2.4.4)
+      activemodel (= 5.2.4.4)
+      activesupport (= 5.2.4.4)
+      arel (>= 9.0)
+    activestorage (5.2.4.4)
+      actionpack (= 5.2.4.4)
+      activerecord (= 5.2.4.4)
+      marcel (~> 0.3.1)
+    activesupport (5.2.4.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    arel (9.0.0)
+    bigdecimal (3.1.9)
+    builder (3.2.4)
+    capybara (3.29.0)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (~> 1.5)
+      xpath (~> 3.2)
+    chunky_png (1.4.0)
+    cliver (0.3.2)
+    coderay (1.1.3)
+    concurrent-ruby (1.1.9)
+    connection_pool (2.2.5)
+    crack (1.0.0)
+      bigdecimal
+      rexml
+    crass (1.0.6)
+    database_cleaner (1.7.0)
+    diff-lcs (1.6.0)
+    equatable (0.7.0)
+    erubi (1.10.0)
+    et-orbi (1.2.6)
+      tzinfo
+    factory_bot (5.2.0)
+      activesupport (>= 4.2.0)
+    factory_bot_rails (5.2.0)
+      factory_bot (~> 5.2.0)
+      railties (>= 4.2.0)
+    faker (1.8.7)
+      i18n (>= 0.7)
+    faraday (1.8.0)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
+      faraday-rack (~> 1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.2.0)
+    faraday-patron (1.0.0)
+    faraday-rack (1.0.0)
+    finite_machine (0.14.1)
+      concurrent-ruby (~> 1.0)
+      sync (~> 0.5)
+    fugit (1.5.2)
+      et-orbi (~> 1.1, >= 1.1.8)
+      raabro (~> 1.4)
+    globalid (0.5.2)
+      activesupport (>= 5.0)
+    graphiql-rails (1.10.4)
+      railties
+    graphql (1.10.14)
+    hashdiff (1.1.2)
+    hashie (4.1.0)
+    httparty (0.20.0)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    i18n (1.8.7)
+      concurrent-ruby (~> 1.0)
+    jwt (2.3.0)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    loofah (2.8.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    macaddr (1.7.2)
+      systemu (~> 2.6.5)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    marcel (0.3.3)
+      mimemagic (~> 0.3.2)
+    method_source (1.0.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2021.0901)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
+    mini_mime (1.0.3)
+    minitest (5.14.4)
+    multi_json (1.15.0)
+    multi_xml (0.6.0)
+    multipart-post (2.1.1)
+    necromancer (0.4.0)
+    nio4r (2.5.8)
+    nokogiri (1.11.1-x86_64-linux)
+      racc (~> 1.4)
+    oauth2 (1.4.7)
+      faraday (>= 0.8, < 2.0)
+      jwt (>= 1.0, < 3.0)
+      multi_json (~> 1.3)
+      multi_xml (~> 0.5)
+      rack (>= 1.2, < 3)
+    omniauth (1.9.1)
+      hashie (>= 3.4.6)
+      rack (>= 1.6.2, < 3)
+    omniauth-oauth2 (1.5.0)
+      oauth2 (~> 1.1)
+      omniauth (~> 1.2)
+    omniauth-saml (1.10.3)
+      omniauth (~> 1.3, >= 1.3.2)
+      ruby-saml (~> 1.9)
+    pastel (0.7.4)
+      equatable (~> 0.6)
+      tty-color (~> 0.5)
+    poltergeist (1.18.1)
+      capybara (>= 2.1, < 4)
+      cliver (~> 0.3.1)
+      websocket-driver (>= 0.2.0)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-rails (0.3.9)
+      pry (>= 0.10.4)
+    public_suffix (4.0.6)
+    raabro (1.4.0)
+    racc (1.5.2)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rails (5.2.4.4)
+      actioncable (= 5.2.4.4)
+      actionmailer (= 5.2.4.4)
+      actionpack (= 5.2.4.4)
+      actionview (= 5.2.4.4)
+      activejob (= 5.2.4.4)
+      activemodel (= 5.2.4.4)
+      activerecord (= 5.2.4.4)
+      activestorage (= 5.2.4.4)
+      activesupport (= 5.2.4.4)
+      bundler (>= 1.3.0)
+      railties (= 5.2.4.4)
+      sprockets-rails (>= 2.0.0)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.4.2)
+      loofah (~> 2.3)
+    railties (5.2.4.4)
+      actionpack (= 5.2.4.4)
+      activesupport (= 5.2.4.4)
+      method_source
+      rake (>= 0.8.7)
+      thor (>= 0.19.0, < 2.0)
+    rake (13.0.6)
+    redis (4.1.4)
+    redmine_extensions (0.3.11)
+      rails (>= 4.2, < 6.1)
+    regexp_parser (1.8.2)
+    request_store (1.4.1)
+      rack (>= 1.4)
+    rexml (3.4.1)
+    rotp (6.2.2)
+    rqrcode (1.0.1)
+      chunky_png (~> 1.0)
+      rqrcode_core (~> 0.1.0)
+    rqrcode_core (0.1.2)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-rails (4.1.2)
+      actionpack (>= 4.2)
+      activesupport (>= 4.2)
+      railties (>= 4.2)
+      rspec-core (~> 3.10)
+      rspec-expectations (~> 3.10)
+      rspec-mocks (~> 3.10)
+      rspec-support (~> 3.10)
+    rspec-support (3.10.2)
+    ruby-saml (1.14.0)
+      nokogiri (>= 1.10.5)
+      rexml
+    ruby2_keywords (0.0.5)
+    saml_idp (0.9.0)
+      activesupport (>= 3.2)
+      builder (>= 3.0)
+      nokogiri (>= 1.6.2)
+      uuid (>= 2.3)
+    sidekiq (5.2.9)
+      connection_pool (~> 2.2, >= 2.2.2)
+      rack (~> 2.0)
+      rack-protection (>= 1.5.0)
+      redis (>= 3.3.5, < 4.2)
+    sidekiq-cron (1.2.0)
+      fugit (~> 1.1)
+      sidekiq (>= 4.2.1)
+    sprockets (4.0.2)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    sprockets-rails (3.2.2)
+      actionpack (>= 4.0)
+      activesupport (>= 4.0)
+      sprockets (>= 3.0.0)
+    swagger-blocks (3.0.0)
+    sync (0.5.0)
+    systemu (2.6.5)
+    thor (1.1.0)
+    thread_safe (0.3.6)
+    timers (4.3.3)
+    tty-color (0.6.0)
+    tty-cursor (0.5.0)
+    tty-prompt (0.16.1)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.0)
+      timers (~> 4.0)
+      tty-cursor (~> 0.5.0)
+      tty-reader (~> 0.3.0)
+    tty-reader (0.3.0)
+      tty-cursor (~> 0.5.0)
+      tty-screen (~> 0.6.4)
+      wisper (~> 2.0.0)
+    tty-screen (0.6.5)
+    tzinfo (1.2.9)
+      thread_safe (~> 0.1)
+    uuid (2.3.9)
+      macaddr (~> 1.0)
+    webmock (3.8.3)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    wisper (2.0.1)
+    xmlenc (0.8.0)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      nokogiri (>= 1.6.0, < 2.0.0)
+      xmlmapper (>= 0.7.3)
+    xmlmapper (0.8.0)
+      nokogiri (~> 1.5)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  advanced_importer!
+  custom_builtin_role!
+  dependent_list_custom_field!
+  easy!
+  easy-redmine!
+  easy_actions!
+  easy_api!
+  easy_calculoid!
+  easy_computed_field_from_query!
+  easy_core!
+  easy_d3!
+  easy_dagre_d3!
+  easy_graphql!
+  easy_integrations!
+  easy_money_cashflow!
+  easy_monitoring!
+  easy_oauth2!
+  easy_service_manager!
+  easy_sso!
+  easy_sso-saml_client!
+  easy_sso-saml_server!
+  easy_swagger!
+  easy_twofa!
+  easy_watchers_list_autocomplete!
+  easy_zapier!
+  email_field_autocomplete!
+  extended_users_context_menu!
+  issue_duration!
+  project_flags!
+  pry-rails
+  resource_reports!
+  rorys!
+  rys!
+  rys_management!
+  ryspec!
+  search_in_administration!
+  security_user_lock!
+  show_last_comments_on_issue!
+
+BUNDLED WITH
+   2.2.4

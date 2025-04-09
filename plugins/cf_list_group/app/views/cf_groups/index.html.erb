@@ -1,0 +1,38 @@
+<h2>CF 그룹 관리</h2>
+
+<table class="list issues">
+  <thead>
+    <tr>
+      <th>그룹명</th>
+      <th>연결된 사용자 정의 필드</th>
+      <th>그룹 멤버</th>
+      <th>액션</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @cf_groups.each do |group| %>
+      <tr>
+        <td><%= group.name %></td>
+        <td><%= group.custom_field.name if group.custom_field %></td>
+        <td><%= group.group_values.join(", ") %></td>
+        <td>
+          <%= link_to '수정', edit_cf_group_path(group) %> |
+          <%= link_to '삭제', cf_group_path(group),
+                      method: :delete,
+                      data: { confirm: '정말 삭제하시겠습니까?' } %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<h3>사용 가능한 사용자 정의 필드 (List 형식)</h3>
+<ul>
+  <% @custom_fields.each do |cf| %>
+    <li>
+      <%= cf.name %> -
+      <%= link_to '그룹 생성하기', new_cf_group_path(custom_field_id: cf.id) %>
+    </li>
+  <% end %>
+</ul>
+

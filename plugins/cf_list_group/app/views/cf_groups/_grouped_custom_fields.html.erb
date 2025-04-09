@@ -1,0 +1,33 @@
+<% if @issue && @issue.custom_values.any? %>
+  <h3>사용자 정의 필드 (그룹별 출력)</h3>
+  <% @issue.custom_values.each do |custom_value| %>
+    <% cf = custom_value.custom_field %>
+    <% if cf.field_format == 'list' %>
+      <% group = CfGroup.find_by(custom_field_id: cf.id) %>
+      <% if group %>
+        <%# 다중 선택인 경우 값은 쉼표로 구분되어 있다고 가정 %>
+        <% values = custom_value.value.to_s.split(',').map(&:strip) %>
+        <% group_members = values & group.group_values %>
+        <% if group_members.any? %>
+          <div class="cf-group">
+            <div class="cf-group-title"><strong><%= group.name %></strong></div>
+            <div class="cf-group-values"><%= group_members.join(", ") %></div>
+          </div>
+        <% else %>
+          <div class="cf-normal">
+            <strong><%= cf.name %>:</strong> <%= custom_value.value %>
+          </div>
+        <% end %>
+      <% else %>
+        <div class="cf-normal">
+          <strong><%= cf.name %>:</strong> <%= custom_value.value %>
+        </div>
+      <% end %>
+    <% else %>
+      <div class="cf-normal">
+        <strong><%= cf.name %>:</strong> <%= custom_value.value %>
+      </div>
+    <% end %>
+  <% end %>
+<% end %>
+
