@@ -1,5 +1,5 @@
 require 'redmine'
-
+Rails.application.config.assets.precompile += %w( cf_list_group.css )
 Redmine::Plugin.register :cf_list_group do
   name 'CF List Group Plugin'
   author 'mini'
