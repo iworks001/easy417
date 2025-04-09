@@ -4,6 +4,7 @@
     <% split_on = (visible_custom_field_values.count / 1.0).round %>
     <% visible_custom_field_values.each_with_index do |value, i| %>
       <p><%= custom_field_tag_with_label :time_entry, value %></p>
+      <p style="color: red; font-weight: bold;">[디버그: xxxxxxxxxxxxxxxx 렌더링됨]</p>
     <% end %>
   </div>
 </div>

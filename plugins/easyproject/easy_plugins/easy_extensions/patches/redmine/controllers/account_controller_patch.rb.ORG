@@ -153,33 +153,18 @@ module EasyPatch
         successful_authentication_redirect_url(user) || redirect_back_or_default(my_page_path)
       end
 
-def login_with_easy_extensions
-  if request.get?
-    # SSO 실패 후 돌아온 경우, error 파라미터가 있으면 로그인 화면 렌더링
-    if params[:error].present?
-      flash.now[:error] = "SSO authentication failed: #{params[:error]}. Please log in manually."
-      render :login and return
-    else
-      # back_url이 전달되었으면 이를 쿼리스트링에 포함하여 /auth/saml로 리디렉션
-      sso_url = '/auth/saml'
-      sso_url << "?RelayState=#{CGI.escape(params[:back_url])}" if params[:back_url].present?
-      redirect_to sso_url and return
-    end
-  elsif request.post?
-    authenticate_user
-  else
-    if User.current.logged?
-      return successful_authentication_redirect_url(User.current) ||
-             redirect_back_or_default(home_url, referer: true)
-    else
-      render :login
-    end
-  end
-rescue AuthSourceException => e
-  logger.error "An error occurred when authenticating #{params[:username]}: #{e.message}"
-  render_error message: e.message
-end
-
+      def login_with_easy_extensions
+        if request.post?
+          authenticate_user
+        else
+          if User.current.logged?
+            successful_authentication_redirect_url(User.current) || redirect_back_or_default(home_url, :referer => true)
+          end
+        end
+      rescue AuthSourceException => e
+        logger.error "An error occurred when authenticating #{params[:username]}: #{e.message}"
+        render_error :message => e.message
+      end
 
       def logout_with_easy_extensions
         if User.current.anonymous?
